@@ -1,0 +1,18 @@
+Sweetbench is a dark, on-device log for shoes someone already owns. Add each shoe with a purchase price and an optional disposal value, pair two shoes, and log the distance of each outing. The bench shows a US-dollar cost per mile and, once both shoes have enough history, names the cheaper one.
+
+• Introduction with "Skip", "Next", and "Start", and "Show introduction" to see it again.
+• Closet of shoes, each with a "Nickname", "Purchase price", and "Disposal value".
+• "Archive" so a shoe leaves the active closet and stays on this device, marked "Archived".
+• Pairing two shoes as the left shoe and the right shoe.
+• Logging a distance with "Log mile" and "Log" plus the right shoe's name.
+• "Undo outing" for the newest distance, from Mile and from Outings.
+• US-dollar cost per mile on the paired shoes, in the closet, and in Ranks.
+• Grade chips "Need peers", "A+", "A", "B", "C", "D", and "F".
+• "Split call" after both shoes have four logged runs and fourteen days, naming the cheaper cost.
+• "Ranks" ordered from lowest cost, with "Lowest cost" on the first shoe.
+• "Outings" history and "Pairs filed".
+• Distance unit "Miles" or "Kilometres", shown as "mi" or "km".
+• "Delete rotation" to remove the closet, distances, and split call from this device.
+• "Contact support".
+
+Shoes, prices, distances, the pair, the split call, and the distance unit stay on this device. English only. It runs on iPhone and iPad and requires iOS 17.0.

@@ -1,0 +1,17 @@
+Version 1.0 is the first release of Sweetbench, a dark on-device log for shoes you already own.
+
+• A three-page introduction with "Skip", "Next", and "Start", plus "Show introduction" to see it again.
+• A closet of shoes, each with a "Nickname", "Purchase price", and "Disposal value".
+• "Archive" so a shoe leaves the active closet, stays on this device, and is marked "Archived".
+• Pairing two shoes as the left shoe and the right shoe.
+• "Log mile" and "Log" plus the right shoe's name, with "Undo outing" for the newest distance on Mile and Outings.
+• A US-dollar cost per mile on the paired shoes, in the closet, and in Ranks.
+• Grade chips "Need peers", "A+", "A", "B", "C", "D", and "F".
+• "Split call" after both shoes have four logged runs and fourteen days, naming the cheaper cost.
+• "Ranks" ordered from lowest cost, with "Lowest cost" on the first shoe.
+• "Outings" history and "Pairs filed".
+• Distance unit "Miles" or "Kilometres", shown as "mi" or "km". The app starts in miles.
+• "Delete rotation" to remove the closet, distances, and split call from this device.
+• "Contact support".
+
+Nothing is included on a new installation. The closet starts empty.

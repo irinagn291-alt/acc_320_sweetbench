@@ -1,0 +1,14 @@
+{
+  "originHash" : "eba1415fc69871bccd675fe7652c01f184ec61ff5d044ca033578a6322aaea87",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/patrickmitchell81-eng/Alamofire",
+      "state" : {
+        "revision" : "eebc9adac38a4f09deb55753419c2c97e07aca67"
+      }
+    }
+  ],
+  "version" : 3
+}

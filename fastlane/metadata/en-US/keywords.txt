@@ -1,0 +1,1 @@
+shoes,closet,miles,cost,pairs,outings,distance,kilometres,ranks,archive,grades

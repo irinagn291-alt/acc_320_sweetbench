@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23000" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="sc-compare">
+            <objects>
+                <viewController storyboardIdentifier="CompareContainer" id="vc-compare" customClass="CompareContainerViewController" customModule="Lastbench" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="view-compare">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="340"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="leftHost" translatesAutoresizingMaskIntoConstraints="NO" id="cv-left">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="230"/>
+                                <connections>
+                                    <segue destination="vc-left" kind="embed" identifier="leftEmbed" id="seg-left"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" restorationIdentifier="rightHost" translatesAutoresizingMaskIntoConstraints="NO" id="cv-right">
+                                <rect key="frame" x="0.0" y="238" width="390" height="102"/>
+                                <connections>
+                                    <segue destination="vc-right" kind="embed" identifier="rightEmbed" id="seg-right"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="safe-compare"/>
+                        <constraints>
+                            <constraint firstItem="cv-left" firstAttribute="leading" secondItem="view-compare" secondAttribute="leading" id="c-left-lead"/>
+                            <constraint firstItem="cv-left" firstAttribute="trailing" secondItem="view-compare" secondAttribute="trailing" id="c-left-trail"/>
+                            <constraint firstItem="cv-left" firstAttribute="top" secondItem="view-compare" secondAttribute="top" id="c-left-top"/>
+                            <constraint firstItem="cv-right" firstAttribute="leading" secondItem="view-compare" secondAttribute="leading" id="c-right-lead"/>
+                            <constraint firstItem="cv-right" firstAttribute="trailing" secondItem="view-compare" secondAttribute="trailing" id="c-right-trail"/>
+                            <constraint firstItem="cv-right" firstAttribute="top" secondItem="cv-left" secondAttribute="bottom" constant="8" id="c-gap"/>
+                            <constraint firstItem="cv-right" firstAttribute="bottom" secondItem="view-compare" secondAttribute="bottom" id="c-right-bottom"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fr-compare" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <scene sceneID="sc-left">
+            <objects>
+                <viewController id="vc-left" customClass="SplitPaneChildViewController" customModule="Lastbench" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="view-left">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="230"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="safe-left"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fr-left" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420.0" y="-180.0"/>
+        </scene>
+        <scene sceneID="sc-right">
+            <objects>
+                <viewController id="vc-right" customClass="SplitPaneChildViewController" customModule="Lastbench" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="view-right">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="102"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="safe-right"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fr-right" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420.0" y="180.0"/>
+        </scene>
+    </scenes>
+</document>
