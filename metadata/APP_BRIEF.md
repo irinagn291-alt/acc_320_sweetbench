@@ -1,4 +1,4 @@
-<!-- gf-brief source=eb9dc9b871b7a3d16b689c01ffca75a3decbf408e8cf46237c7d67f0217d4897 written=2026-10-24T21:35:20+03:00 -->
+<!-- gf-brief source=eb9dc9b871b7a3d16b689c01ffca75a3decbf408e8cf46237c7d67f0217d4897 written=2026-10-24T21:35:39+03:00 -->
 # Sweetbench
 ## What it is
 Sweetbench is a dark, on-device log for shoes a person already owns. They add each shoe with a purchase price and an optional disposal value, pair two shoes, and log the distance of each outing. The bench then shows a US-dollar cost per mile and, once both shoes have enough history, names the cheaper one.
